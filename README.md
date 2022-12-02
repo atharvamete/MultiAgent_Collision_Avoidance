@@ -5,26 +5,22 @@ This repository contains the implementation of
 A two agent collision avoidance algorithm is implemented based on Deep Reinforcement Learning.
 
 ## Simulation Results
-Following are the training results:
-1] Zero episodes i.e. on the supervised trained network:
 
-Collides with the non cooperating agent
-![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/supervised.gif)
+1] Zero episodes i.e. on the supervised trained network:<br>
+Collides with the non cooperating agent<br>
+<img src="/results/supervised.gif" width="30%" height="30%"/>
 
-2] 100 episodes:
+2] 100 episodes:<br>
+Avoids the non coop agent but doesn't follow an optimal path<br>
+<img src="/results/100_ep.gif" width="30%" height="30%"/>
 
-Avoids the non coop agent but doesn't follow an optimal path
-![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/100_ep.gif)
+3] 500 episodes:<br>
+Avoids the non coop agent with suboptimal path<br>
+<img src="/results/500_ep.gif" width="30%" height="30%"/>
 
-3] 500 episodes:
-
-Avoids the non coop agent with suboptimal path
-![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/500_ep.gif)
-
-4] 1000 episodes:
-
-Successfully avoids the obstacle with close to optimal path
-![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/1000_ep.gif)
+4] 1000 episodes:<br>
+Successfully avoids the obstacle with close to optimal path<br>
+<img src="/results/1000_ep.gif" width="30%" height="30%"/>
 
 [Multiagent gym environment](https://gym-collision-avoidance.readthedocs.io/en/latest/index.html) was used in this project to implement and validate the algorithm. 
 The implementation was done in Python programming language, and
