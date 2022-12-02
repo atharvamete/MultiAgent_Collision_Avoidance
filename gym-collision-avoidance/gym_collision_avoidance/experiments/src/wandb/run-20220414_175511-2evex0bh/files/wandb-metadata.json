@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-107-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2022-04-14T12:25:14.164936",
+    "startedAt": "2022-04-14T12:25:11.793518",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX250",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "initialize_weights.py",
+    "codePath": "gym_collision_avoidance/experiments/src/initialize_weights.py",
+    "git": {
+        "remote": "https://github.com/mit-acl/gym-collision-avoidance.git",
+        "commit": "f612a44a4511b9fbeb9d6219ba81b7a70a70e793"
+    },
+    "email": "atharvamete12@gmail.com",
+    "root": "/home/atharva/cadrl2/gym-collision-avoidance",
+    "host": "atharva",
+    "username": "atharva",
+    "executable": "/home/atharva/cadrl2/gym-collision-avoidance/venv/bin/python"
+}

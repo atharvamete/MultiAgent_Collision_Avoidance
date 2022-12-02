@@ -1,0 +1,64 @@
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense (Dense)                (None, 150)               2400
+_________________________________________________________________
+dense_1 (Dense)              (None, 100)               15100
+_________________________________________________________________
+dense_2 (Dense)              (None, 100)               10100
+_________________________________________________________________
+dense_3 (Dense)              (None, 1)                 101
+=================================================================
+Total params: 27,701
+Trainable params: 27,701
+Non-trainable params: 0
+_________________________________________________________________
+Train on 26578 samples
+Epoch 1/20
+26578/26578 [==============================] - 0s 8us/sample - loss: 0.0332 - acc: 0.0170
+Epoch 2/20
+26578/26578 [==============================] - 0s 6us/sample - loss: 2.8927e-04 - acc: 0.0178
+Epoch 3/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 1.2818e-04 - acc: 0.0178
+Epoch 4/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 9.8843e-05 - acc: 0.0178
+Epoch 5/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 8.6774e-05 - acc: 0.0178
+Epoch 6/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 7.5854e-05 - acc: 0.0178
+Epoch 7/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 7.1724e-05 - acc: 0.0178
+Epoch 8/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 6.9208e-05 - acc: 0.0178
+Epoch 9/20
+  256/26578 [..............................] - ETA: 0s - loss: 6.6973e-05 - acc: 0.0156
+WARNING:tensorflow:From /home/atharva/cadrl2/gym-collision-avoidance/venv/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2022-04-14 17:55:14.414984: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-14 17:55:14.436700: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1999965000 Hz
+2022-04-14 17:55:14.437113: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4556780 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+26578/26578 [==============================] - 0s 5us/sample - loss: 6.2961e-05 - acc: 0.0178
+Epoch 10/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 5.9279e-05 - acc: 0.0178
+Epoch 11/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 5.9089e-05 - acc: 0.0178
+Epoch 12/20
+26578/26578 [==============================] - 0s 6us/sample - loss: 5.2878e-05 - acc: 0.0178
+Epoch 13/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 5.2509e-05 - acc: 0.0178
+Epoch 14/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 5.3492e-05 - acc: 0.0178
+Epoch 15/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 5.0209e-05 - acc: 0.0178
+Epoch 16/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 5.0755e-05 - acc: 0.0178
+Epoch 17/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 4.4258e-05 - acc: 0.0178
+Epoch 18/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 4.6796e-05 - acc: 0.0178
+Epoch 19/20
+26578/26578 [==============================] - 0s 6us/sample - loss: 4.4749e-05 - acc: 0.0178
+Epoch 20/20
+26578/26578 [==============================] - 0s 5us/sample - loss: 4.4065e-05 - acc: 0.0178
