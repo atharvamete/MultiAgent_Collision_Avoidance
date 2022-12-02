@@ -1,10 +1,30 @@
 # multiagent_collision_avoidance
 This repository contains the implementation of
-### Non-communicating Multi-Agent Collision Avoidance with Deep Reinforcement Learning
+### Multi-Agent Collision Avoidance with Deep Reinforcement Learning
 
 A two agent collision avoidance algorithm is implemented based on Deep Reinforcement Learning.
 
-[<img src="https://www.linkpicture.com/q/000_learning_2agents.gif" width="620" height="480">](https://www.linkpicture.com/view.php?img=LPic627166333e1c31110223739)
+## Simulation Results
+Following are the training results:
+1] Zero episodes i.e. on the supervised trained network:
+
+Collides with the non cooperating agent
+![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/supervised.gif)
+
+2] 100 episodes:
+
+Avoids the non coop agent but doesn't follow an optimal path
+![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/100_ep.gif)
+
+3] 500 episodes:
+
+Avoids the non coop agent with suboptimal path
+![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/500_ep.gif)
+
+4] 1000 episodes:
+
+Successfully avoids the obstacle with close to optimal path
+![](https://github.com/atharva7am/MultiAgent_Collision_Avoidance/blob/master/results/1000_ep.gif)
 
 [Multiagent gym environment](https://gym-collision-avoidance.readthedocs.io/en/latest/index.html) was used in this project to implement and validate the algorithm. 
 The implementation was done in Python programming language, and
@@ -37,4 +57,4 @@ time ∆𝑡, get rewards and to get parameterized state vector from normal stat
 to convert the trajectories into parametrized (agent-centric) state vector, and save the correcponding state-value pairs.
 
 
-For training part Deep Q-Learning with Experience Replay was used for improved stability and convergence.
+For training part Double DQN with Prioritized Experience Replay was used for improved stability and convergence.
